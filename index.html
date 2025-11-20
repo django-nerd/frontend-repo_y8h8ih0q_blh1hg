@@ -3,13 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flames App</title>
+    <title>CynteraTech — AI Automation Solutions</title>
+    <meta name="description" content="AI automation that converts old leads into new revenue. CynteraTech builds AI voice agents, lead reactivation systems, business automation, and AI chatbots for local businesses." />
     <link rel="icon" type="image/x-icon" href="favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/geist@1.0.0/dist/fonts/geist-sans/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/geist@1.0.0/dist/fonts/geist-mono/style.css">
+
+    <!-- Local Business + Services Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "CynteraTech",
+        "image": "",
+        "url": "https://cynteratech.com",
+        "telephone": "+1-000-000-0000",
+        "email": "support@cynteratech.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "US",
+          "addressRegion": "WY",
+          "addressLocality": "",
+          "postalCode": ""
+        },
+        "areaServed": "United States",
+        "description": "AI automation solutions: AI voice agents, lead reactivation, business workflow automation, and AI chatbots for businesses.",
+        "sameAs": [],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "AI Automation Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {"@type": "Service", "name": "AI Voice Agents", "description": "24/7 phone agents for booking, payments, FAQs, and qualification."}
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {"@type": "Service", "name": "Lead Reactivation", "description": "Convert old leads via multichannel outreach: voice, SMS, email."}
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {"@type": "Service", "name": "Business Automation", "description": "Automated workflows that reduce manual tasks and improve productivity."}
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {"@type": "Service", "name": "AI Chat Bots", "description": "Intelligent chat on web, SMS, and social to convert more leads."}
+            }
+          ]
+        },
+        "keywords": "AI automation, lead reactivation, AI voice agents, AI chatbots for business, business workflow automation"
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
